@@ -1,4 +1,88 @@
 body{
     background-color: #000000;
     color: #ffffff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.flex1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex2{
+    display: flex;
+    justify-content: flex-end
+}
+
+.flex3{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.flex4{
+    display: flex;
+    justify-content: center;
+}
+
+.flex5{
+    display: flex;
+}
+
+.letreiro{
+    width: 165px;
+    height: 50px;
+}
+
+.icones{
+    width: 35px;
+    height: 35px;
+    padding: 10px;
+    margin: 0px;
+}
+
+.meio1{
+    width:50%;
+}
+
+.meio2{
+    width:75%;
+}
+
+.meio3{
+    width:25%;
+}
+
+.fotoReels{
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    margin: 0px;
+}
+
+.iconeAbaixo{
+    width: 35px;
+    height: 35px;
+    padding: 20px;
+    margin: 0px;
+}
+
+.fotoPerfil{
+    width: 45px;
+    height: 45px;
+    padding: 10px;
+    margin: 0px;
+}
+
+.pontos{
+    width: 20px;
+    height: 15px;
+    padding: 30px;
+    margin: 0px;
+}
+
+.nome{
+    width: 40px;
+    height: 35px;
+    padding: 10px;
+    margin: 0px;
 }
