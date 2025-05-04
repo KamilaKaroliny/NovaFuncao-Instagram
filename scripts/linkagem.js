@@ -30,7 +30,10 @@ async function iniciarContador() {
     }
 }
 
-if (window.location.href.includes("telaInicial2.html")) {
+if (
+    window.location.href.includes("telaInicial2.html") ||
+    window.location.href.includes("telaInicial3.html")
+) {
     iniciarContador();
 }
 
@@ -41,8 +44,29 @@ if (window.location.href.includes("telaInicial.html")) {
         localStorage.removeItem("storyExpirado");
     }
 }
+function publicarStory1() {
+    const tempo = localStorage.getItem("tempoStory");
+
+    if (!tempo) {
+        alert("⛔ Você precisa escolher o tempo do story antes!");
+        return;
+    }
+
+    window.location.href = "telaInicial2.html";
+}
+
+function publicarStory2() {
+    const tempo = localStorage.getItem("tempoStory");
+
+    if (!tempo) {
+        alert("⛔ Você precisa escolher o tempo do story antes!");
+        return;
+    }
+
+    window.location.href = "telaInicial3.html";
+}
 
 function definirTempo(tempoEmSegundos) {
     localStorage.setItem("tempoStory", tempoEmSegundos);
-    window.location.href = "telaInicial2.html";
+    alert("⏱ Tempo salvo! Agora publique seu story.");
 }

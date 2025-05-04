@@ -91,9 +91,23 @@ body{
     margin: 0px;
 }
 
+.icones1{
+    width: 30px;
+    height: 30px;
+    padding: 0px;
+    margin: 0px;
+}
+
 .icones2{
     width: 35px;
     height: 35px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.icones3{
+    width: 40px;
+    height: 30px;
     padding: 0px;
     margin: 0px;
 }
@@ -243,8 +257,8 @@ body{
 }
   
 .amigos {
-    background: #1dd05d;
-    border: 1px solid #87ff7c;
+    background-color: rgb(44, 44, 44);
+    border: 1px solid #8b8b8b;
     color: white;
 }
 
@@ -283,7 +297,7 @@ body{
 
 .submenu-tempo {
     position: absolute;
-    top: 300px;
+    top: 350px;
     right: 25px;
     background: rgb(44, 44, 44);
     color: white;
