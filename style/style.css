@@ -317,3 +317,15 @@ body{
     margin: 0;
     cursor: pointer;
 }
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: white;
+}
+
+a:visited{
+    color:white;
+}
